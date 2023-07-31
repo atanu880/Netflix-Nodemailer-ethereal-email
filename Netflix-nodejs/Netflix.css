@@ -1,0 +1,450 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    background-color: rgb(38, 34, 34);
+    color: white;
+    flex-wrap: wrap;
+}
+.page1
+{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8) 20%,rgba(0, 0, 0, 0.493)60%,rgba(0, 0, 0, 0.741)70%), url(https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/6973a9ea-02b2-4de9-9006-d7d224c9b75d/IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px  10px;
+    justify-content: space-around;
+    position: relative;
+}
+.logo1
+{
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: 150px;
+}
+.lang
+{
+    background-color: red;
+    height: 29px;
+    width: 125px;
+    justify-content: space-around;
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+    float: right;
+    margin-right: 18px; 
+    margin-top: 20px;
+    font-size: 16px;
+    border: .8px solid rgba(255, 255, 255, 0.429);
+}
+.sig
+{
+    background-color: red;
+    color: white;
+    height: 29px;
+    width: 75px;
+    font-weight: bold; 
+    border-color: transparent;   
+    border-radius: 5px;
+    margin-right: 160px;
+    margin-top: 20px;
+    float: right;
+}
+.h1
+{
+    font-weight:700;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 206px;
+}
+.h2
+{
+    font-weight: 400;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-right: 25px;
+}
+.h3
+{
+    font-weight: 450;
+    font-size: 1.320rem;
+    line-height: 1.6855rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 26px;
+}
+.email
+{
+    height: 55px;
+    width: 26.4%;
+    color: rgba(255, 255, 255, 0.869);
+    border: 0.3px solid rgba(255, 255, 255, 0.497);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.497);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 18px;
+    margin-right: 17px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    font-weight: 200; 
+    float: right;
+}
+.login
+{
+    height: 55px;
+    width: 14%;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border-color: transparent;
+    float: right;
+    margin-top: 18px;
+    margin-right: 425px;
+    font-size: 1.5rem;
+    font-weight: 580; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.page2
+{
+    width: 100%;
+    height: 550px;
+    margin-top: 8px;
+    background-color: black;
+    position: relative;
+}
+.img2
+{
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 68px;
+    position: absolute;
+}
+.video1
+{
+    width: 458px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 100px;
+    padding-top: 38px;
+    padding-left: 50px;
+}
+.b1
+{
+    font-weight:900;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    padding-right: 690px;
+}
+.b2
+{
+    font-weight: 400;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 560px;
+}
+.page3
+{
+    width: 100%;
+    height: 550px;
+    margin-top: 8px;
+    background-color: black;
+    position: relative;
+}
+.img3
+{
+    height: 400px;
+    width: 470px;
+    margin-left: 170px;
+    margin-top: 110px;
+    position: absolute;
+}
+.c1
+{
+    font-weight:900;
+    font-size: 3rem;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-left: 730px; 
+}
+.c2
+{
+    font-weight:400;
+    font-size: 1.6rem;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 310px;
+    padding-left: 730px; 
+}
+.page4
+{
+    width: 100%;
+    height: 550px;
+    margin-top: 8px;
+    background-color: black;
+    position: relative;
+}
+.img4
+{
+    height: 400px;
+    margin-left: 730px;
+    margin-top: 72px;
+    position: absolute;
+}
+.video2
+{
+    width: 400px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 80px;
+    padding-top: 38px;
+    padding-left: 50px;
+}
+.d1
+{
+    font-weight:900;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    padding-right: 690px;
+}
+.d2
+{
+    font-weight: 400;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 640px;
+}
+.page5
+{
+    width: 100%;
+    height: 550px;
+    margin-top: 8px;
+    background-color: black;
+    position: relative;
+}
+.img5
+{
+    height: 410px;
+    width: 550px;
+    margin-left: 168px;
+    margin-top: 65px;
+    position: absolute;
+}
+.e1
+{
+    font-weight:900;
+    font-size: 3rem;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    padding-left: 730px; 
+}
+.e2
+{
+    font-weight:400;
+    font-size: 1.6rem;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 280px;
+    padding-left: 730px; 
+}
+.page6
+{
+    width: 100%;
+    height: 1000px;
+    margin-top: 8px;
+    background-color: black;
+}
+.f1
+{
+    font-weight:900;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 63px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.sub
+{
+    height: 80px;
+    width: 75%;
+    color: rgba(255, 255, 255, 0.869);
+    border: 0.3px solid rgba(255, 255, 255, 0.051);
+    background-color: rgba(255, 255, 255, 0.191);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+    margin-left: 170px;
+    padding-left: 25px;
+    font-size: 1.6rem;
+    font-weight: 300; 
+}
+.ab1
+{
+    font-weight: 450;
+    font-size: 1.320rem;
+    line-height: 1.6855rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 70px;
+}
+.login2
+{
+    height: 55px;
+    width: 14%;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border-color: transparent;
+    float: right;
+    margin-top: 28px;
+    margin-right: 425px;
+    font-size: 1.5rem;
+    font-weight: 580; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.email2
+{
+    height: 55px;
+    width: 26.4%;
+    color: rgba(255, 255, 255, 0.869);
+    border: 0.3px solid rgba(255, 255, 255, 0.497);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.497);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 28px;
+    margin-right: 17px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    font-weight: 200; 
+    float: right;
+}
+.page7
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 8px;
+    background-color: black;
+    position: relative;
+}
+.num
+{
+    padding-top: 70px;
+    margin-left: 170px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: sans-serif;
+
+}
+.enq
+{
+    padding-top: 60px;
+    padding-left: 170px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.625);
+    font-family: sans-serif;
+}
+li
+{
+    padding-left: 170px;
+}
+.lang1
+{
+    background-color: red;
+    height: 29px;
+    width: 125px;
+    /* justify-content: space-around; */
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+    /* float: right; */
+    margin-right: 15px; 
+    margin-top: 5px;
+    margin-left: 168px;
+    font-size: 16px;
+    border: .7px solid rgba(255, 255, 255, 0.468);
+}
+.num1
+{
+    padding-top: 30px;
+    margin-left: 170px;
+    font-size: .91rem;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: sans-serif;
+}
+.enq2
+{
+    margin-left: 550px;
+    margin-top: -287px;
+    display:inline;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: sans-serif;
+    position: absolute;
+}
+.enq3
+{
+    margin-left: 950px;
+    margin-top: -287px;
+    display:inline;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: sans-serif;
+    position: absolute;
+}
+
+
+
+
+
+
+
